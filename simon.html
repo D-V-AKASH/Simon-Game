@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Game</title>
+
+    <link rel="stylesheet" href="simon.css">
+</head>
+<body>
+
+    <div class="title"><span style="color: red;">S</span><span style="color: blue;">I</span>m<span style="color: #06ff27;">O</span><span style="color: #fbff00;">N</span>&nbsp;Game</div>
+
+    <div class="infos">Click ENTER To Start</div>
+
+    <main>
+        <div class="buttons">
+            <button class="btn" id="red"></button>
+            <button class="btn" id="blue"></button>
+            <button class="btn" id="green"></button>
+            <button class="btn" id="yellow"></button>
+        </div>
+    </main> 
+
+    <div class="bottom">
+        <div class="bottom-left">
+            <div class="score">Score: 0</div>
+            <div class="high-score">High Score: 0</div>    
+        </div>
+        
+        <div class="bottom-right">
+            <button class="reset">Reset</button>    
+        </div>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="simon.js"></script>
+</body>
+</html>

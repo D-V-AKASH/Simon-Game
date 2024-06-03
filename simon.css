@@ -1,0 +1,121 @@
+
+@font-face {
+    font-family: 'game-font';
+    src: url('./game-font.ttf') format('truetype'); /* Adjust the path and format if necessary */
+}
+
+body
+{
+    background-color: rgb(0, 0, 0);
+    font-family: 'game-font', sans-serif;
+}
+
+.title
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 20px;
+    font-size: 30px;
+}
+
+.infos
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 20px;
+    font-size: 30px;
+
+}
+
+.buttons
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 27rem;
+    height: 23rem;    
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+
+.btn
+{
+    width: 11rem;
+    height: 11rem;
+    margin: 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+.score, .high-score
+{
+    color: white;
+    font-size:30px ;
+    margin-left: 30px;
+}
+
+#red
+{
+    background-color:  #f52d05;
+}
+
+#blue
+{
+    background-color: #3a1aef;
+}
+
+#green
+{
+    background-color: #06ff27;
+}
+
+#yellow
+{
+    background-color: #fbff00;
+}
+
+.pressed 
+{
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+}
+
+.reset
+{
+    background-color: white;
+    border-radius: 15px;
+    font-size: 20px;
+    border: none;
+    width: 100px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+.bottom
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
